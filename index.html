@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sneha Coastlines | Costa Rican Coastal Tour Itineraries</title>
+  <meta name="description" content="Curated Costa Rican coastal escapes — San José, Jacó, Manuel Antonio, Guanacaste. Seamless, tailored tours with expert local guides." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Lato:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="logo">
+        <span class="logo-badge" aria-hidden="true">
+          <svg viewBox="0 0 64 64" width="40" height="40">
+            <circle cx="32" cy="32" r="30" fill="#fbf3e7" stroke="#1f3a3d" stroke-width="2"/>
+            <path d="M2 38 a30 30 0 0 0 60 0 Z" fill="#1d6b6b"/>
+            <circle cx="24" cy="26" r="9" fill="#e7a44c"/>
+            <path d="M2 40 q15 -10 30 0 q15 -10 30 0" fill="none" stroke="#1f3a3d" stroke-width="2"/>
+          </svg>
+        </span>
+        <span class="logo-text">Sneha Coastlines</span>
+      </a>
+      <nav class="main-nav" id="main-nav">
+        <a href="#tours">Tours</a>
+        <a href="#itineraries" data-i18n="nav.itineraries">Itineraries</a>
+        <a href="#experience" data-i18n="nav.experience">Experience</a>
+      </nav>
+      <div class="lang-toggle" role="group" aria-label="Language selector">
+        <button type="button" class="lang-btn active" data-lang="en">EN</button>
+        <button type="button" class="lang-btn" data-lang="es">ES</button>
+      </div>
+      <a href="#contact" class="nav-cta" data-i18n="nav.cta">Get a Quote</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-image" role="img" aria-label="Nauyaca Waterfalls cascading through the Costa Rican rainforest" style="background-image: url('assets/images/hero-waterfall.jpg');"></div>
+      <div class="hero-overlay"></div>
+    </section>
+
+    <section class="intro container">
+      <p class="eyebrow" data-i18n="hero.eyebrow">Tour Itineraries</p>
+      <h1>Sneha Coastlines</h1>
+      <div class="divider" aria-hidden="true"><span></span><i></i><span></span></div>
+      <p class="subtitle" data-i18n="hero.subtitle">A Curated Collection of Costa Rican Coastal Escapes</p>
+      <p class="locations">San José &middot; Jacó &middot; Manuel Antonio &middot; Guanacaste</p>
+
+      <p class="lede" data-i18n="hero.lede">Our vacations are seamless, tailored experiences with experienced guides and exceptional service.</p>
+
+      <div class="feature-grid" id="experience">
+        <div class="feature-card">
+          <span class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3l7 3v5c0 5-3.5 8-7 10-3.5-2-7-5-7-10V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg>
+          </span>
+          <h3 data-i18n="feature.safe.title">Safe Travel</h3>
+          <p data-i18n="feature.safe.desc">From airport pickup to drop-off, every leg of the journey is looked after.</p>
+        </div>
+
+        <div class="feature-card">
+          <span class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="8" r="3.2"/><path d="M5 20c0-3.5 3-6 7-6s7 2.5 7 6"/></svg>
+          </span>
+          <h3 data-i18n="feature.guides.title">Expert Local Guides</h3>
+          <p data-i18n="feature.guides.desc">Recommendations on the best spots, translation, and flexibility for any detour.</p>
+        </div>
+
+        <div class="feature-card">
+          <span class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 16l1.5-5A2 2 0 0 1 6.4 9.5h11.2a2 2 0 0 1 1.9 1.5L21 16"/><rect x="2.5" y="16" width="19" height="3.5" rx="1"/><circle cx="7" cy="19.5" r="1.3"/><circle cx="17" cy="19.5" r="1.3"/></svg>
+          </span>
+          <h3 data-i18n="feature.rides.title">Comfortable Rides</h3>
+          <p data-i18n="feature.rides.desc">Brand new, spacious SUVs with EV options for a smooth, quiet ride.</p>
+        </div>
+
+        <div class="feature-card">
+          <span class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="6" y="7" width="12" height="14" rx="2"/><path d="M9 7V5a3 3 0 0 1 6 0v2"/><path d="M9 11h6"/></svg>
+          </span>
+          <h3 data-i18n="feature.handled.title">Everything Handled</h3>
+          <p data-i18n="feature.handled.desc">Luggage handling and ice coolers stocked with drinks, all taken care of.</p>
+        </div>
+
+        <div class="feature-card">
+          <span class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="7" width="18" height="13" rx="2"/><circle cx="12" cy="13.5" r="3.5"/><path d="M9 7l1-2h4l1 2"/></svg>
+          </span>
+          <h3 data-i18n="feature.photos.title">Picture-Perfect Stops</h3>
+          <p data-i18n="feature.photos.desc">Drivers accommodate all your photo needs along the way.</p>
+        </div>
+
+        <div class="feature-card">
+          <span class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 5h9v6H8l-3 3v-3H4z"/><path d="M11 13h9v6h-5l-3 3v-3h-1z"/></svg>
+          </span>
+          <h3 data-i18n="feature.comm.title">Seamless Communication</h3>
+          <p data-i18n="feature.comm.desc">Drivers translate and help you communicate with locals with ease.</p>
+        </div>
+      </div>
+
+      <p class="callout">
+        <span class="callout-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="7" r="4"/><path d="M5 21c0-4 3-7 7-7s7 3 7 7"/></svg>
+        </span>
+        <span data-i18n="callout.text">We provide female drivers for women travelers.</span>
+      </p>
+    </section>
+
+    <!-- WHY CHOOSE US -->
+    <section class="why" id="why">
+      <div class="container">
+        <p class="eyebrow" data-i18n="why.eyebrow">Why Sneha Coastlines</p>
+        <h2 data-i18n="why.heading">Why Choose Us?</h2>
+
+        <div class="why-grid">
+          <div class="why-item">
+            <span class="why-number">01</span>
+            <h3 data-i18n="why.tailored.title">Tailored to You</h3>
+            <p data-i18n="why.tailored.desc">Our itineraries are tailored to your experience &mdash; whether it&rsquo;s a honeymoon, a girls&rsquo; trip, or a family getaway, the plan adapts to you.</p>
+          </div>
+
+          <div class="why-item">
+            <span class="why-number">02</span>
+            <h3 data-i18n="why.local.title">Local Roots, Real Insight</h3>
+            <p data-i18n="why.local.desc">We&rsquo;re not a call center booking tours from afar &mdash; our guides live this coastline and know it like family.</p>
+          </div>
+
+          <div class="why-item">
+            <span class="why-number">03</span>
+            <h3 data-i18n="why.flexible.title">Flexible by Design</h3>
+            <p data-i18n="why.flexible.desc">Want to stop for a roadside fruit stand or skip a stop entirely? Your itinerary bends to your mood, not the other way around.</p>
+          </div>
+
+          <div class="why-item">
+            <span class="why-number">04</span>
+            <h3 data-i18n="why.attention.title">Small Groups, Full Attention</h3>
+            <p data-i18n="why.attention.desc">Every trip gets a dedicated driver-guide from start to finish &mdash; no shuffling between strangers or rotating staff.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- POPULAR PACKAGES -->
+    <section class="popular" id="popular">
+      <div class="container">
+        <p class="eyebrow" data-i18n="popular.eyebrow">Fan Favorites</p>
+        <h2 data-i18n="popular.heading">Our Most Popular Packages</h2>
+
+        <div class="popular-grid">
+          <article class="popular-card">
+            <div class="popular-image" style="background-image: url('assets/images/ladies-coastal-escape.jpg');" role="img" aria-label="A group of friends in white robes relaxing poolside under fringed umbrellas"></div>
+            <div class="popular-body">
+              <h3 data-i18n="popular.ladies.title">Ladies Coastal Escape</h3>
+              <p data-i18n="popular.ladies.desc">A relaxed girls&rsquo; getaway along the coast, with female drivers, beach time, and curated stops made for a group of friends.</p>
+            </div>
+          </article>
+
+          <article class="popular-card">
+            <div class="popular-image" style="background-image: url('assets/images/honeymoon-vacation.jpg');" role="img" aria-label="A couple holding hands and walking along a sandy beach at sunset"></div>
+            <div class="popular-body">
+              <h3 data-i18n="popular.honeymoon.title">Honeymoon Vacation</h3>
+              <p data-i18n="popular.honeymoon.desc">An intimate escape for two, pairing scenic coastal drives with quiet, romantic stays — crafted for newlyweds.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOURS AT A GLANCE -->
+    <section class="tours" id="tours">
+      <div class="container">
+        <p class="eyebrow" data-i18n="tours.eyebrow">The Collection</p>
+        <h2 data-i18n="tours.heading">Tours at a Glance</h2>
+
+        <div class="table-wrap">
+          <table class="tours-table">
+            <thead>
+              <tr>
+                <th>Tour</th>
+                <th data-i18n="tours.th.group">Group</th>
+                <th data-i18n="tours.th.duration">Duration</th>
+                <th data-i18n="tours.th.price">From (Per head)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-i18n="popular.ladies.title">Ladies Coastal Escape</td>
+                <td data-i18n="guests.4">4 guests</td>
+                <td data-i18n="duration.5d4n">5 days / 4 nights</td>
+                <td class="price">$1,500</td>
+              </tr>
+              <tr>
+                <td data-i18n="tours.gentlemen.name">Gentlemen&rsquo;s Coastal Escape</td>
+                <td data-i18n="guests.4">4 guests</td>
+                <td data-i18n="duration.5d4n">5 days / 4 nights</td>
+                <td class="price">$1,500</td>
+              </tr>
+              <tr>
+                <td data-i18n="tours.seniors.name">Senior Citizens&rsquo; Relaxing Getaway</td>
+                <td data-i18n="guests.34">3&ndash;4 guests</td>
+                <td data-i18n="duration.5d4n">5 days / 4 nights</td>
+                <td class="price">$1,500</td>
+              </tr>
+              <tr>
+                <td data-i18n="popular.honeymoon.title">Honeymoon Vacation</td>
+                <td data-i18n="guests.2">2 guests</td>
+                <td data-i18n="duration.5d4n">5 days / 4 nights</td>
+                <td class="price">$2,000</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="fine-print" data-i18n="tours.finePrint">All prices in USD. Per person, based on the full package. Custom quotes available on request.</p>
+      </div>
+    </section>
+
+    <!-- ITINERARY OPTIONS -->
+    <section class="itineraries" id="itineraries">
+      <div class="container">
+        <p class="eyebrow" data-i18n="itin.eyebrow">The Plan</p>
+        <h2 data-i18n="itin.heading">Itinerary Options</h2>
+
+        <div class="routes">
+          <div class="route">
+            <h3 data-i18n="itin.south">South Costa Rica Route</h3>
+            <ol class="timeline">
+              <li><span class="day" data-i18n="day.01">Day 01</span><span class="place">San José</span></li>
+              <li><span class="day" data-i18n="day.02">Day 02</span><span class="place">Jacó</span></li>
+              <li><span class="day" data-i18n="day.03">Day 03</span><span class="place">Jacó</span></li>
+              <li><span class="day" data-i18n="day.04">Day 04</span><span class="place">Manuel Antonio</span></li>
+            </ol>
+          </div>
+
+          <div class="route">
+            <h3 data-i18n="itin.north">North Costa Rica Route</h3>
+            <ol class="timeline">
+              <li><span class="day" data-i18n="day.01">Day 01</span><span class="place">Liberia</span></li>
+              <li><span class="day" data-i18n="day.02">Day 02</span><span class="place" data-i18n="place.tamarindoCoco">Tamarindo or Coco Beach</span></li>
+              <li><span class="day" data-i18n="day.03">Day 03</span><span class="place" data-i18n="place.tamarindoCoco">Tamarindo or Coco Beach</span></li>
+              <li><span class="day" data-i18n="day.04">Day 04</span><span class="place">La Fortuna <small data-i18n="place.arenal">(Arenal Volcano)</small></span></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT / CTA -->
+    <section class="contact" id="contact">
+      <div class="container contact-inner">
+        <h2 data-i18n="contact.heading">Ready to plan your coastal escape?</h2>
+        <p data-i18n="contact.body">Tell us your dates and group size — we&rsquo;ll put together a custom itinerary and quote.</p>
+        <p class="contact-line" data-i18n="contact.line">Reach us on WhatsApp or email — we&rsquo;ll respond quickly.</p>
+        <div class="contact-links">
+          <a class="cta-button" href="https://wa.me/14696374789" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5.1-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.6.8-.8 1-.1.2-.3.2-.5.1-1.3-.6-2.2-1.1-3.1-2.6-.2-.3 0-.5.1-.7l.4-.5c.1-.2.1-.4 0-.6-.1-.2-.6-1.4-.8-1.9-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.2-.9.9-.9 2.2 0 1.3.9 2.5 1 2.7.1.2 1.8 2.8 4.4 3.8 2.1.8 2.5.6 3 .6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2-.1-.1-.3-.2-.5-.3z"/></svg>
+            WhatsApp: 469-637-4789
+          </a>
+          <a class="cta-button cta-button-alt" href="mailto:info@snehacoastlines.com">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M4 7l8 6 8-6"/></svg>
+            info@snehacoastlines.com
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-tagline" data-i18n="footer.tagline">Crafting Memories, Coast to Coast</p>
+      <p class="footer-contact">
+        <a href="https://wa.me/14696374789" target="_blank" rel="noopener">WhatsApp: 469-637-4789</a>
+        &nbsp;&middot;&nbsp;
+        <a href="mailto:info@snehacoastlines.com">info@snehacoastlines.com</a>
+      </p>
+      <p class="footer-copy">&copy; <span id="year"></span> Sneha Coastlines. <span data-i18n="footer.rights">All rights reserved.</span></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
