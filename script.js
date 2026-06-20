@@ -1,4 +1,6 @@
 const translations = {
+  "header.tagline": { en: "Crafting Memories, Coast to Coast", es: "Creando Recuerdos, de Costa a Costa" },
+
   "nav.itineraries": { en: "Itineraries", es: "Itinerarios" },
   "nav.experience": { en: "Experience", es: "Experiencia" },
   "nav.cta": { en: "Get a Quote", es: "Solicitar Cotización" },
