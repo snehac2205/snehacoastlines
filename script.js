@@ -24,6 +24,27 @@ const translations = {
 
   "callout.text": { en: "We provide female drivers for women travelers.", es: "Ofrecemos conductoras para viajeras mujeres." },
 
+  "value.carbon.title": { en: "Carbon Neutral Fleet", es: "Flota de Carbono Neutral" },
+  "value.carbon.desc": { en: "Most of our fleet runs fully electric — the Geely Geometry–E, BYD Seagull, and Nammi 06 — with up to 330 km of range per charge. Choosing Sneha Coastlines means lower emissions without compromising on comfort, so you can explore Costa Rica’s rainforests and coastlines knowing your ride is part of the solution.", es: "La mayoría de nuestra flota es totalmente eléctrica: el Geely Geometry–E, el BYD Seagull y el Nammi 06, con hasta 330 km de autonomía por carga. Elegir Sneha Coastlines significa menos emisiones sin sacrificar comodidad, para que explores las selvas y costas de Costa Rica sabiendo que tu transporte es parte de la solución." },
+  "value.safety.title": { en: "Safety First", es: "La Seguridad Primero" },
+  "value.safety.desc": { en: "Every driver is vetted and trained, every vehicle is regularly inspected, and every route is planned with your safety in mind. We also offer female drivers for women travelers who want extra peace of mind. From airport pickup to your final drop-off, you’re in safe, capable hands.", es: "Cada conductor está verificado y capacitado, cada vehículo se inspecciona con regularidad y cada ruta se planea pensando en tu seguridad. También ofrecemos conductoras para viajeras que buscan mayor tranquilidad. Desde la recogida en el aeropuerto hasta el regreso, estás en buenas manos." },
+  "value.more.title": { en: "More Than a Tour", es: "Más Que un Tour" },
+  "value.more.desc": { en: "We’re not just driving you from point A to point B — we’re sharing the Costa Rica we love. Detours to a roadside fruit stand, stops for the perfect photo, recommendations only locals know about: every ride is an experience, not just a transfer.", es: "No solo te llevamos del punto A al punto B: compartimos contigo la Costa Rica que amamos. Desvíos a un puesto de frutas en el camino, paradas para la foto perfecta, recomendaciones que solo los locales conocen: cada viaje es una experiencia, no solo un traslado." },
+
+  "team.eyebrow": { en: "Meet the Team", es: "Conoce al Equipo" },
+  "team.heading": { en: "Business Manager & Advisors", es: "Gerente de Negocios y Asesores" },
+  "team.carolina.quote": { en: "“Every ride we offer is built on care, precision, and a deep respect for your time. Let me take you through the Costa Rica that captured my heart.”", es: "“Cada viaje que ofrecemos está construido con cuidado, precisión y un profundo respeto por tu tiempo. Déjame mostrarte la Costa Rica que cautivó mi corazón.”" },
+  "team.dariana.quote": { en: "“Behind every trip is efficient management and excellent service, designed with you in mind. Let me show you why I fell in love with this beautiful country.”", es: "“Detrás de cada viaje hay una gestión eficiente y un servicio excelente, pensado para ti. Déjame mostrarte por qué me enamoré de este hermoso país.”" },
+  "team.melvin.quote": { en: "“Discover Costa Rica with us: comfort, safety, and service that comes from the heart. We transform every trip into an unforgettable experience through the land of pura vida.”", es: "“Descubre Costa Rica con nosotros: comodidad, seguridad y un servicio que viene del corazón. Transformamos cada viaje en una experiencia inolvidable a través de la tierra de la pura vida.”" },
+
+  "fleet.eyebrow": { en: "The Fleet", es: "La Flota" },
+  "fleet.heading": { en: "Our Fleet", es: "Nuestra Flota" },
+  "fleet.geely.white.spec": { en: "3 cars, fully electric, 330 km autonomy", es: "3 autos, totalmente eléctricos, 330 km de autonomía" },
+  "fleet.geely.green.spec": { en: "Fully electric, 330 km autonomy", es: "Totalmente eléctrico, 330 km de autonomía" },
+  "fleet.byd.spec": { en: "Fully electric, 305 km autonomy", es: "Totalmente eléctrico, 305 km de autonomía" },
+  "fleet.hybrid.spec": { en: "Hybrid — Gas and Gasoline", es: "Híbrido — Gas y Gasolina" },
+  "fleet.nammi.spec": { en: "Fully electric", es: "Totalmente eléctrico" },
+
   "why.eyebrow": { en: "Why Sneha Coastlines", es: "Por Qué Sneha Coastlines" },
   "why.heading": { en: "Why Choose Us?", es: "¿Por Qué Elegirnos?" },
   "why.tailored.title": { en: "Tailored to You", es: "A Tu Medida" },
