@@ -3,6 +3,7 @@ const translations = {
 
   "nav.itineraries": { en: "Itineraries", es: "Itinerarios" },
   "nav.experience": { en: "Experience", es: "Experiencia" },
+  "nav.rentals": { en: "Rentals", es: "Alquileres" },
   "nav.cta": { en: "Get a Quote", es: "Solicitar Cotización" },
 
   "hero.eyebrow": { en: "Tour Itineraries", es: "Itinerarios de Viaje" },
@@ -86,6 +87,11 @@ const translations = {
   "day.04": { en: "Day 04", es: "Día 04" },
   "place.tamarindoCoco": { en: "Tamarindo or Coco Beach", es: "Tamarindo o Playas del Coco" },
   "place.arenal": { en: "(Arenal Volcano)", es: "(Volcán Arenal)" },
+
+  "rentals.eyebrow": { en: "San José, Costa Rica", es: "San José, Costa Rica" },
+  "rentals.heading": { en: "Short Term Rentals", es: "Alquileres de Corto Plazo" },
+  "rentals.desc": { en: "Looking for flexibility in the heart of Costa Rica? Our short term rentals in the San José area are perfect for travelers who need comfortable, well-located accommodations for a few days — no long-term commitments. Browse available properties and book directly online.", es: "¿Buscas flexibilidad en el corazón de Costa Rica? Nuestros alquileres de corto plazo en el área de San José son perfectos para viajeros que necesitan alojamiento cómodo y bien ubicado por unos días, sin compromisos a largo plazo. Explora las propiedades disponibles y reserva directamente en línea." },
+  "rentals.cta": { en: "Browse Rentals", es: "Ver Alquileres" },
 
   "contact.heading": { en: "Ready to plan your coastal escape?", es: "¿Listo para planear tu escapada costera?" },
   "contact.body": { en: "Tell us your dates and group size — we’ll put together a custom itinerary and quote.", es: "Cuéntanos tus fechas y el tamaño de tu grupo, y armaremos un itinerario y cotización a tu medida." },
