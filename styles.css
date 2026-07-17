@@ -199,23 +199,29 @@ a { color: inherit; text-decoration: none; }
     repeating-linear-gradient(45deg, rgba(255,255,255,0.04) 0 2px, transparent 2px 14px);
 }
 
-.hero-image {
+.hero-slide {
   position: absolute;
   inset: 0;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   transform-origin: center center;
-  animation: hero-zoom 10s ease-in-out infinite alternate;
+  opacity: 0;
+  transition: opacity 1.2s ease-in-out;
+  animation: hero-zoom 14s ease-in-out infinite alternate;
+}
+
+.hero-slide.active {
+  opacity: 1;
 }
 
 @keyframes hero-zoom {
   from { transform: scale(1); }
-  to { transform: scale(1.15); }
+  to { transform: scale(1.1); }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .hero-image {
+  .hero-slide {
     animation: none;
   }
 }

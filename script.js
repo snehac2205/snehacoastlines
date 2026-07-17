@@ -118,7 +118,19 @@ function applyLanguage(lang) {
   localStorage.setItem("snehacoastlines-lang", lang);
 }
 
+function initHeroCarousel() {
+  const slides = document.querySelectorAll(".hero-slide");
+  if (slides.length < 2) return;
+  let current = 0;
+  setInterval(() => {
+    slides[current].classList.remove("active");
+    current = (current + 1) % slides.length;
+    slides[current].classList.add("active");
+  }, 5000);
+}
+
 document.addEventListener("DOMContentLoaded", () => {
+  initHeroCarousel();
   const toggle = document.getElementById("nav-toggle");
   const nav = document.getElementById("main-nav");
 
