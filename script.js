@@ -3,7 +3,7 @@ const translations = {
 
   "nav.itineraries": { en: "Itineraries", es: "Itinerarios" },
   "nav.experience": { en: "Experience", es: "Experiencia" },
-  "nav.rentals": { en: "Rentals", es: "Alquileres" },
+  "nav.rentals": { en: "Property Rentals", es: "Alquileres de Propiedades" },
   "nav.cta": { en: "Get a Quote", es: "Solicitar Cotización" },
 
   "hero.eyebrow": { en: "Tour Itineraries", es: "Itinerarios de Viaje" },

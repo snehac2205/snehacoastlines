@@ -25,7 +25,7 @@
         <a href="#experience" data-i18n="nav.experience">Experience</a>
         <a href="#tours">Tours</a>
         <a href="#itineraries" data-i18n="nav.itineraries">Itineraries</a>
-        <a href="#rentals" data-i18n="nav.rentals">Rentals</a>
+        <a href="#rentals" class="nav-rentals-btn" data-i18n="nav.rentals">Property Rentals</a>
       </nav>
       <div class="lang-toggle" role="group" aria-label="Language selector">
         <button type="button" class="lang-btn active" data-lang="en">EN</button>
@@ -254,18 +254,46 @@
     <!-- SHORT TERM RENTALS -->
     <section class="rentals" id="rentals">
       <div class="container">
-        <div class="rentals-inner">
-          <span class="rentals-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 9.5L12 3l9 6.5V21a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5z"/><path d="M9 22V12h6v10"/></svg>
-          </span>
-          <p class="eyebrow" data-i18n="rentals.eyebrow">San José, Costa Rica</p>
-          <h2 data-i18n="rentals.heading">Short Term Rentals</h2>
-          <div class="divider" aria-hidden="true"><span></span><i></i><span></span></div>
-          <p data-i18n="rentals.desc">Looking for flexibility in the heart of Costa Rica? Our short term rentals in the San José area are perfect for travelers who need comfortable, well-located accommodations for a few days — no long-term commitments. Browse available properties and book directly online.</p>
-          <a href="https://rentals.snehacoastlines.com" target="_blank" rel="noopener" class="rentals-cta">
-            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 9.5L12 3l9 6.5V21a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5z"/><path d="M9 22V12h6v10"/></svg>
-            <span data-i18n="rentals.cta">Browse Rentals</span>
+        <p class="eyebrow" data-i18n="rentals.eyebrow">San José, Costa Rica</p>
+        <h2 data-i18n="rentals.heading">Our Top Properties</h2>
+
+        <div class="rentals-grid">
+
+          <a class="rental-card" href="https://rentals.snehacoastlines.com/listings/566044" target="_blank" rel="noopener">
+            <div class="rental-image" style="background-image: url('assets/images/rentals/property-1.jpg');" role="img" aria-label="Stylish Studio with Modern Amenities Near Airport">
+              <div class="rental-dots"><span class="dot active"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+            </div>
+            <div class="rental-body">
+              <h3>Stylish Studio with Modern Amenities Near Airport</h3>
+              <p class="rental-stats">4 guests &bull; 1 bedroom &bull; 1 bathroom</p>
+              <div class="rental-tags">
+                <span>Swimming pool</span>
+                <span>Free WiFi</span>
+                <span>Kitchen</span>
+              </div>
+            </div>
           </a>
+
+          <a class="rental-card" href="https://rentals.snehacoastlines.com/listings/566043" target="_blank" rel="noopener">
+            <div class="rental-image" style="background-image: url('assets/images/rentals/property-2.jpg');" role="img" aria-label="Elegant Be Cariari Escape – Comfort & Vista">
+              <div class="rental-rating">5.00 &#9733;</div>
+              <div class="rental-dots"><span class="dot active"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+            </div>
+            <div class="rental-body">
+              <h3>Elegant Be Cariari Escape &ndash; Comfort &amp; Vista</h3>
+              <p class="rental-stats">4 guests &bull; 1 bedroom &bull; 1 bathroom</p>
+              <div class="rental-tags">
+                <span>Swimming pool</span>
+                <span>Kitchen</span>
+                <span>Air conditioning</span>
+              </div>
+            </div>
+          </a>
+
+        </div>
+
+        <div class="rentals-footer">
+          <a href="https://rentals.snehacoastlines.com" target="_blank" rel="noopener" class="rentals-cta" data-i18n="rentals.cta">Browse All Rentals</a>
         </div>
       </div>
     </section>
