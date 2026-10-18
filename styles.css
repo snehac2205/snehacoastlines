@@ -1043,3 +1043,13 @@ a { color: inherit; text-decoration: none; }
     grid-template-columns: 1fr;
   }
 }
+
+.route h3 a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.route h3 a:hover {
+  opacity: 0.75;
+}
