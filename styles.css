@@ -1044,12 +1044,16 @@ a { color: inherit; text-decoration: none; }
   }
 }
 
-.route h3 a {
+.route h3 a,
+.popular-body h3 a,
+.tours-table td a {
   color: inherit;
   text-decoration: underline;
   text-underline-offset: 4px;
 }
 
-.route h3 a:hover {
+.route h3 a:hover,
+.popular-body h3 a:hover,
+.tours-table td a:hover {
   opacity: 0.75;
 }
